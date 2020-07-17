@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-17T19:42:05 IST" name="Default suite" finished-at="2020-07-17T19:43:35 IST" duration-ms="89979">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNgRunner@323b36e0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2020-07-17T19:42:05 IST" name="Default test" finished-at="2020-07-17T19:43:35 IST" duration-ms="89979">
+      <class name="runner.TestNgRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.TestNgRunner@323b36e0]" started-at="2020-07-17T19:42:05 IST" name="setUpClass" finished-at="2020-07-17T19:42:06 IST" duration-ms="681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNgRunner@323b36e0]" started-at="2020-07-17T19:42:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-17T19:43:35 IST" duration-ms="89160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[": Book a Flight"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Flight Booking]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNgRunner@323b36e0]" started-at="2020-07-17T19:42:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-17T19:43:19 IST" duration-ms="73019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[": Book a Flight"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Flight Booking]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNgRunner@323b36e0]" started-at="2020-07-17T19:42:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-17T19:43:26 IST" duration-ms="80628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[": Book a Flight"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Flight Booking]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNgRunner@323b36e0]" started-at="2020-07-17T19:42:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-17T19:43:26 IST" duration-ms="80363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[": Book a Flight"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Flight Booking]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestNgRunner@323b36e0]" started-at="2020-07-17T19:43:35 IST" name="tearDownClass" finished-at="2020-07-17T19:43:35 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestNgRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
